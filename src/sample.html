@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/jsaccordion.css" rel="stylesheet">
+	<script src="./js/jsaccordion.js"></script>
+</head>
+<body>
+	<div id="test1">new object by selector then test it</div>
+	<div id="test2">new object by dom element then test</div>
+	<div id="test3">direct call by selector then test immediately</div>
+	<div id="test4">direct call and did not keep result then test immediately</div>
+	<script>
+        var a = new JSAccordion( '#test1' );
+        a.test('red');
+
+        var b = new JSAccordion( document.getElementById('test2') );
+        b.test('green');
+
+        var c = JSAccordion( '#test3' ).test('blue');
+
+        JSAccordion( document.getElementById('test4') ).test('cyan');
+
+	</script>
+</body>
+</html>
