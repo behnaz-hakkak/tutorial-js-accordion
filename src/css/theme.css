@@ -1,0 +1,54 @@
+/* Reset CSS */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+/* End Reset CSS */
+
+/* My Styles */
+.inner_body {
+    padding: 15px;
+    background: linear-gradient(to right, #4e42b9, #e98223);
+}
+
+.each_acc {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.acc_header {
+    display: block;
+    padding: 10px 20px;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    position: relative;
+}
+
+.acc_body {
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: 1px;
+    border-top: none;
+    border-radius: 5px;
+}
+
+.collapsed {
+    display: none;
+}
+
+.expanded {
+    display: block;
+}
